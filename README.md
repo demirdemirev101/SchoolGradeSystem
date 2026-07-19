@@ -112,17 +112,17 @@ USE SchoolGradeSystem;
 
 CREATE TABLE Persons (
 
-&#x20;   Id INT PRIMARY KEY IDENTITY,
+   Id INT PRIMARY KEY IDENTITY,
 
-&#x20;   Name NVARCHAR(100) NOT NULL,
+   Name NVARCHAR(100) NOT NULL,
 
-&#x20;   Age INT NOT NULL,
+   Age INT NOT NULL,
 
-&#x20;   PersonType NVARCHAR(20) NOT NULL,
+   PersonType NVARCHAR(20) NOT NULL,
 
-&#x20;   Grade FLOAT NULL,
+   Grade FLOAT NULL,
 
-&#x20;   Subject NVARCHAR(100) NULL
+   Subject NVARCHAR(100) NULL
 
 );
 
